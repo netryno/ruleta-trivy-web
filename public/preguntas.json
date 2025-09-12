@@ -1,0 +1,407 @@
+[
+    {
+        "titulo": "¿Qué es una denuncia penal?",
+        "respuestas": [
+            { "texto": "Es un pedido de información.", "correcta": false },
+            { "texto": "Es una queja formal por un mal servicio.", "correcta": false },
+            { "texto": "Es la forma de informar un delito a las autoridades.", "correcta": true },
+            { "texto": "Es un registro de nacimiento.", "correcta": false }
+        ]
+    },
+    {
+        "titulo": "¿A qué institución acudes para presentar una denuncia penal?",
+        "respuestas": [
+            { "texto": "A la alcaldía municipal.", "correcta": false },
+            { "texto": "A la Policía Boliviana y a la Fiscalía.", "correcta": true },
+            { "texto": "Al servicio de impuestos nacionales.", "correcta": false },
+            { "texto": "Al hospital de la zona.", "correcta": false }
+        ]
+    },
+    {
+        "titulo": "¿Qué servicio del Ministerio Público te permite hacer una denuncia por internet?",
+        "respuestas": [
+            { "texto": "Justicia Rápida.", "correcta": false },
+            { "texto": "Denuncia en línea.", "correcta": true },
+            { "texto": "Justicia Ahora.", "correcta": false },
+            { "texto": "Fiscalía Virtual.", "correcta": false }
+        ]
+    },
+    {
+        "titulo": "¿Qué es la 'Justicia Libre'?",
+        "respuestas": [
+            { "texto": "Un servicio de asesoría legal gratuita.", "correcta": false },
+            { "texto": "Una radio del Ministerio Público.", "correcta": false },
+            { "texto": "La plataforma digital para ver el estado de los casos.", "correcta": true },
+            { "texto": "El nombre de una calle en La Paz.", "correcta": false }
+        ]
+    },
+    {
+        "titulo": "¿La Fiscalía General del Estado protege los derechos de niños, niñas y adolescentes?",
+        "respuestas": [
+            { "texto": "No, esa es tarea de las defensorías.", "correcta": false },
+            { "texto": "Solo en casos de violencia extrema.", "correcta": false },
+            { "texto": "Sí, es parte de su misión institucional.", "correcta": true },
+            { "texto": "Solo si tienen un abogado.", "correcta": false }
+        ]
+    },
+    {
+        "titulo": "¿A quién protege el Ministerio Público?",
+        "respuestas": [
+            { "texto": "Solo a los abogados.", "correcta": false },
+            { "texto": "A la sociedad, a las víctimas y a los intereses públicos.", "correcta": true },
+            { "texto": "Únicamente a los fiscales.", "correcta": false },
+            { "texto": "Solo a las personas mayores de edad.", "correcta": false }
+        ]
+    },
+    {
+        "titulo": "¿Qué ley protege a las mujeres contra todo tipo de violencia?",
+        "respuestas": [
+            { "texto": "Ley 1173 de Abreviación Procesal.", "correcta": false },
+            { "texto": "Ley 348 - Ley Integral para Garantizar a las Mujeres una Vida Libre de Violencia.", "correcta": true },
+            { "texto": "Ley 007 - Ley de la Tierra y el Territorio.", "correcta": false },
+            { "texto": "Ley 025 - Ley del Órgano Judicial.", "correcta": false }
+        ]
+    },
+    {
+        "titulo": "Si eres víctima de un delito, ¿debes pagar para hacer tu denuncia en la Fiscalía?",
+        "respuestas": [
+            { "texto": "Sí, se paga una tarifa.", "correcta": false },
+            { "texto": "Solo si es un delito grave.", "correcta": false },
+            { "texto": "No, las denuncias son gratuitas.", "correcta": true },
+            { "texto": "Sí, se paga un impuesto.", "correcta": false }
+        ]
+    },
+    {
+        "titulo": "¿Qué significa la sigla EFE en la Fiscalía?",
+        "respuestas": [
+            { "texto": "Entrenamiento Fiscal Especializado.", "correcta": false },
+            { "texto": "Escuela de Fiscales del Estado.", "correcta": true },
+            { "texto": "Equipo de Formación Ética.", "correcta": false },
+            { "texto": "Estudios Financieros Especiales.", "correcta": false }
+        ]
+    },
+    {
+        "titulo": "¿Qué delito investiga el Ministerio Público en casos de corrupción?",
+        "respuestas": [
+            { "texto": "Robo.", "correcta": false },
+            { "texto": "Incumplimiento de deberes.", "correcta": false },
+            { "texto": "Peculado.", "correcta": false },
+            { "texto": "Todas las anteriores.", "correcta": true }
+        ]
+    },
+    {
+        "titulo": "¿Quién dirige las investigaciones de los delitos en Bolivia?",
+        "respuestas": [
+            { "texto": "El juez.", "correcta": false },
+            { "texto": "El fiscal.", "correcta": true },
+            { "texto": "El abogado de la víctima.", "correcta": false },
+            { "texto": "La Policía Boliviana.", "correcta": false }
+        ]
+    },
+    {
+        "titulo": "Si quieres saber en qué estado se encuentra un caso, ¿dónde puedes consultarlo?",
+        "respuestas": [
+            { "texto": "En la página web del Tribunal Supremo de Justicia.", "correcta": false },
+            { "texto": "En la alcaldía.", "correcta": false },
+            { "texto": "En la plataforma de Justicia Libre.", "correcta": true },
+            { "texto": "En el Ministerio de Salud.", "correcta": false }
+        ]
+    },
+    {
+        "titulo": "¿Cuál es la función del Instituto de Investigaciones Forenses (IDIF)?",
+        "respuestas": [
+            { "texto": "Realizar análisis financieros.", "correcta": false },
+            { "texto": "Hacer investigaciones científicas y forenses.", "correcta": true },
+            { "texto": "Capacitar a fiscales.", "correcta": false },
+            { "texto": "Gestionar los pagos de multas.", "correcta": false }
+        ]
+    },
+    {
+        "titulo": "¿La Fiscalía puede investigar a funcionarios públicos que cometen delitos?",
+        "respuestas": [
+            { "texto": "No, solo a ciudadanos comunes.", "correcta": false },
+            { "texto": "Sí, especialmente los de corrupción.", "correcta": true },
+            { "texto": "Solo si el Presidente lo autoriza.", "correcta": false },
+            { "texto": "Únicamente a los policías.", "correcta": false }
+        ]
+    },
+    {
+        "titulo": "Si una persona es víctima de violencia y tiene un 'sticker' de ayuda en su auto, ¿quién lo emite?",
+        "respuestas": [
+            { "texto": "Una ONG.", "correcta": false },
+            { "texto": "La Policía.", "correcta": false },
+            { "texto": "El Ministerio de Gobierno.", "correcta": false },
+            { "texto": "El Ministerio Público.", "correcta": true }
+        ]
+    },
+    {
+        "titulo": "¿El Ministerio Público está en todos los departamentos de Bolivia?",
+        "respuestas": [
+            { "texto": "Sí, en las Fiscalías Departamentales.", "correcta": true },
+            { "texto": "No, solo en las ciudades principales.", "correcta": false },
+            { "texto": "Solo en La Paz y Santa Cruz.", "correcta": false },
+            { "texto": "No, solo en La Paz.", "correcta": false }
+        ]
+    },
+    {
+        "titulo": "¿Qué es la 'Fiscalía Especializada en Delitos de Violencia Sexual y en Razón de Género'?",
+        "respuestas": [
+            { "texto": "Un área de la Fiscalía que atiende todos los delitos.", "correcta": false },
+            { "texto": "Unidades especializadas para atender delitos de género y violencia.", "correcta": true },
+            { "texto": "Un departamento de Recursos Humanos.", "correcta": false },
+            { "texto": "Un centro de mediación de conflictos.", "correcta": false }
+        ]
+    },
+    {
+        "titulo": "¿El Ministerio Público puede intervenir en conflictos familiares?",
+        "respuestas": [
+            { "texto": "No, es competencia exclusiva de la Defensoría.", "correcta": false },
+            { "texto": "Sí, cuando hay un delito de violencia.", "correcta": true },
+            { "texto": "Solo en casos de divorcio.", "correcta": false },
+            { "texto": "Solo si las partes lo solicitan.", "correcta": false }
+        ]
+    },
+    {
+        "titulo": "¿Qué es el 'IDIF'?",
+        "respuestas": [
+            { "texto": "Un centro de idiomas.", "correcta": false },
+            { "texto": "Un instituto de investigaciones forenses.", "correcta": true },
+            { "texto": "Un departamento de la policía.", "correcta": false },
+            { "texto": "Una oficina de trámites.", "correcta": false }
+        ]
+    },
+    {
+        "titulo": "Si presencias un delito, ¿cuál es tu deber?",
+        "respuestas": [
+            { "texto": "Ignorarlo y seguir tu camino.", "correcta": false },
+            { "texto": "Denunciarlo a las autoridades.", "correcta": true },
+            { "texto": "Tomar fotos y subirlas a redes sociales.", "correcta": false },
+            { "texto": "Esperar a que alguien más lo denuncie.", "correcta": false }
+        ]
+    },
+    {
+        "titulo": "Para los abogados litigantes, ¿qué sistema del Ministerio Público les ayuda a realizar sus trámites?",
+        "respuestas": [
+            { "texto": "Sistema de Archivo Digital.", "correcta": false },
+            { "texto": "Sistema Integrado de Tramitación de Documentos.", "correcta": false },
+            { "texto": "Justicia Libre.", "correcta": true },
+            { "texto": "Ecosistema ROMA.", "correcta": false }
+        ]
+    },
+    {
+        "titulo": "¿Qué información puedes encontrar en el Portal de Datasets del Ministerio Público?",
+        "respuestas": [
+            { "texto": "Datos personales de los fiscales.", "correcta": false },
+            { "texto": "Datos anonimizados sobre denuncias de delitos.", "correcta": true },
+            { "texto": "Los resultados de las elecciones.", "correcta": false },
+            { "texto": "Noticias deportivas.", "correcta": false }
+        ]
+    },
+    {
+        "titulo": "¿Cómo puedes protegerte en caso de violencia?",
+        "respuestas": [
+            { "texto": "No saliendo de casa.", "correcta": false },
+            { "texto": "Denunciando el hecho y solicitando medidas de protección.", "correcta": true },
+            { "texto": "Pagando a un abogado.", "correcta": false },
+            { "texto": "Hablando con el agresor.", "correcta": false }
+        ]
+    },
+    {
+        "titulo": "Si pierdes tus documentos, ¿qué delito debes denunciar?",
+        "respuestas": [
+            { "texto": "Robo.", "correcta": false },
+            { "texto": "Extravío.", "correcta": false },
+            { "texto": "Hurto.", "correcta": true },
+            { "texto": "Estafa.", "correcta": false }
+        ]
+    },
+    {
+        "titulo": "¿El Ministerio Público se encarga de la seguridad ciudadana?",
+        "respuestas": [
+            { "texto": "Sí, son los que patrullan las calles.", "correcta": false },
+            { "texto": "No, esa es tarea de la Policía Boliviana.", "correcta": true },
+            { "texto": "Sí, en coordinación con las Fuerzas Armadas.", "correcta": false },
+            { "texto": "No, es tarea de los municipios.", "correcta": false }
+        ]
+    },
+    {
+        "titulo": "¿Cuál es la misión principal del Ministerio Público de Bolivia?",
+        "respuestas": [
+            { "texto": "Proteger el medio ambiente.", "correcta": false },
+            { "texto": "Defender la legalidad y los intereses de la sociedad.", "correcta": true },
+            { "texto": "Recaudar impuestos.", "correcta": false },
+            { "texto": "Administrar los hospitales.", "correcta": false }
+        ]
+    },
+    {
+        "titulo": "¿El sistema 'Ecosistema ROMA' es de uso público?",
+        "respuestas": [
+            { "texto": "Sí, para que todos vean sus casos.", "correcta": false },
+            { "texto": "No, es un sistema interno de la Fiscalía.", "correcta": true },
+            { "texto": "Sí, es para la gestión de trámites municipales.", "correcta": false },
+            { "texto": "Sí, es para solicitar antecedentes penales.", "correcta": false }
+        ]
+    },
+    {
+        "titulo": "¿Quién puede usar la aplicación 'Justicia Libre'?",
+        "respuestas": [
+            { "texto": "Abogados litigantes y partes de un proceso.", "correcta": true },
+            { "texto": "Solo abogados.", "correcta": false },
+            { "texto": "Solo fiscales.", "correcta": false },
+            { "texto": "Cualquier ciudadano.", "correcta": false }
+        ]
+    },
+    {
+        "titulo": "¿Cuál de estas opciones no es un delito que investiga la Fiscalía?",
+        "respuestas": [
+            { "texto": "Robo agravado.", "correcta": false },
+            { "texto": "Incumplimiento de contrato de alquiler.", "correcta": true },
+            { "texto": "Homicidio.", "correcta": false },
+            { "texto": "Violencia familiar.", "correcta": false }
+        ]
+    },
+    {
+        "titulo": "¿Dónde puedes encontrar las oficinas del Ministerio Público en una ciudad?",
+        "respuestas": [
+            { "texto": "Solo en los Juzgados.", "correcta": false },
+            { "texto": "En las oficinas de Asientos Fiscales en diferentes municipios.", "correcta": true },
+            { "texto": "En las oficinas del Órgano Judicial.", "correcta": false },
+            { "texto": "En las oficinas del Servicio de Identificación Personal.", "correcta": false }
+        ]
+    },
+{
+        "titulo": "¿Qué es la acción penal pública?",
+        "respuestas": [
+            { "texto": "El derecho de cualquier persona a iniciar un juicio.", "correcta": false },
+            { "texto": "La facultad del Ministerio Público de iniciar una investigación por un delito.", "correcta": true },
+            { "texto": "La denuncia que hace un ciudadano de forma anónima.", "correcta": false },
+            { "texto": "Un tipo de demanda civil.", "correcta": false }
+        ]
+    },
+    {
+        "titulo": "¿A quién se le atribuye el ejercicio de la acción penal pública?",
+        "respuestas": [
+            { "texto": "A la Policía Boliviana.", "correcta": false },
+            { "texto": "Al Fiscal de Materia.", "correcta": true },
+            { "texto": "Al Juez de la causa.", "correcta": false },
+            { "texto": "Al abogado de la víctima.", "correcta": false }
+        ]
+    },
+    {
+        "titulo": "¿Cuál de estas opciones no es un principio de la actuación fiscal?",
+        "respuestas": [
+            { "texto": "Objetividad.", "correcta": false },
+            { "texto": "Transparencia.", "correcta": false },
+            { "texto": "Inmediatez.", "correcta": true },
+            { "texto": "Autonomía.", "correcta": false }
+        ]
+    },
+    {
+        "titulo": "¿Qué es un 'asiento fiscal'?",
+        "respuestas": [
+            { "texto": "Un tipo de juzgado menor.", "correcta": false },
+            { "texto": "Una oficina de la Fiscalía en un municipio.", "correcta": true },
+            { "texto": "El lugar donde el fiscal toma notas.", "correcta": false },
+            { "texto": "Una dirección de la Policía.", "correcta": false }
+        ]
+    },
+    {
+        "titulo": "¿Qué sistema utiliza la Fiscalía para la gestión de casos penales?",
+        "respuestas": [
+            { "texto": "Sistema Judicial Único.", "correcta": false },
+            { "texto": "Ecosistema ROMA.", "correcta": true },
+            { "texto": "Sistema de Archivo de Denuncias.", "correcta": false },
+            { "texto": "Justicia Ágil.", "correcta": false }
+        ]
+    },
+    {
+        "titulo": "¿Qué significa la Ley N° 1173?",
+        "respuestas": [
+            { "texto": "Ley de Identidad de Género.", "correcta": false },
+            { "texto": "Ley de Prevención de la Violencia.", "correcta": false },
+            { "texto": "Ley de Abreviación Procesal Penal.", "correcta": true },
+            { "texto": "Ley del Órgano Judicial.", "correcta": false }
+        ]
+    },
+    {
+        "titulo": "¿Quién es el titular de la Fiscalía Departamental?",
+        "respuestas": [
+            { "texto": "El Fiscal de Materia.", "correcta": false },
+            { "texto": "El Fiscal General del Estado.", "correcta": false },
+            { "texto": "El Fiscal de Distrito.", "correcta": false },
+            { "texto": "El Fiscal Departamental.", "correcta": true }
+        ]
+    },
+    {
+        "titulo": "## ¿Qué es un 'fiscal de carrera'?",
+        "respuestas": [
+            { "texto": "Un fiscal que solo atiende casos de tránsito.", "correcta": false },
+            { "texto": "Un fiscal que ha ingresado por concurso de méritos y examen de competencia.", "correcta": true },
+            { "texto": "Un fiscal que tiene una especialización.", "correcta": false },
+            { "texto": "Un fiscal que atiende a deportistas.", "correcta": false }
+        ]
+    },
+    {
+        "titulo": "## ¿Cuál es la función del Instituto de Investigaciones Forenses (IDIF)?",
+        "respuestas": [
+            { "texto": "Realizar auditorías financieras.", "correcta": false },
+            { "texto": "Dirigir investigaciones policiales.", "correcta": false },
+            { "texto": "Apoyar la investigación fiscal con análisis científicos y técnicos.", "correcta": true },
+            { "texto": "Proteger a testigos en casos de violencia.", "correcta": false }
+        ]
+    },
+    {
+        "titulo": "## ¿Qué es el 'Reglamento de Régimen Disciplinario'?",
+        "respuestas": [
+            { "texto": "El código de ética para abogados.", "correcta": false },
+            { "texto": "Un manual de procedimientos de seguridad.", "correcta": false },
+            { "texto": "Las normas que regulan la conducta de fiscales y personal.", "correcta": true },
+            { "texto": "El manual para presentar una denuncia.", "correcta": false }
+        ]
+    },
+    {
+        "titulo": "## ¿Cuál es la principal característica del Portal de Datasets?",
+        "respuestas": [
+            { "texto": "Permite acceder a expedientes completos de casos penales.", "correcta": false },
+            { "texto": "Publica datos financieros del Ministerio Público.", "correcta": false },
+            { "texto": "Ofrece información anonimizada y saneada sobre delitos.", "correcta": true },
+            { "texto": "Permite a los ciudadanos denunciar de forma anónima.", "correcta": false }
+        ]
+    },
+    {
+        "titulo": "## ¿Qué significa 'anonimización de datos'?",
+        "respuestas": [
+            { "texto": "Hacer los datos más pequeños para que ocupen menos espacio.", "correcta": false },
+            { "texto": "Eliminar información personal para proteger la privacidad.", "correcta": true },
+            { "texto": "Cifrar los datos para que nadie pueda verlos.", "correcta": false },
+            { "texto": "Traducir los datos a otro idioma.", "correcta": false }
+        ]
+    },
+    {
+        "titulo": "## ¿Cuál es la función de la Dirección de Tecnologías de la Información?",
+        "respuestas": [
+            { "texto": "Investigar delitos informáticos.", "correcta": false },
+            { "texto": "Apoyar la gestión fiscal con soluciones tecnológicas.", "correcta": true },
+            { "texto": "Proveer internet gratuito en las oficinas.", "correcta": false },
+            { "texto": "Comprar equipos de computación para la institución.", "correcta": false }
+        ]
+    },
+    {
+        "titulo": "## ¿Qué es la 'diarización' en un proceso de transcripción?",
+        "respuestas": [
+            { "texto": "El registro de la fecha de una denuncia.", "correcta": false },
+            { "texto": "La separación de los diferentes hablantes en un audio.", "correcta": true },
+            { "texto": "El proceso de guardar un audio en la nube.", "correcta": false },
+            { "texto": "Un diario de la investigación de un caso.", "correcta": false }
+        ]
+    },
+    {
+        "titulo": "## ¿Qué es la ley 807?",
+        "respuestas": [
+            { "texto": "Ley de violencia intrafamiliar.", "correcta": false },
+            { "texto": "Ley de identidad de género.", "correcta": true },
+            { "texto": "Ley contra la corrupción.", "correcta": false },
+            { "texto": "Ley de armas y municiones.", "correcta": false }
+        ]
+    }
+]

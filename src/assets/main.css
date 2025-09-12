@@ -1,0 +1,42 @@
+*,
+*::before,
+*::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html, body { height: 100%; font-family: system-ui, sans-serif; }
+
+#app {
+  min-height: 100dvh;          /* iOS Safari safe */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /*background: radial-gradient(circle at top, #1d1d42, #0f0f1e); */
+  color: #fff;
+  padding: 1rem;
+
+  background: linear-gradient(330deg, #513c8b, #3a8e88, #5c9138)
+  
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  font-size: 1rem;
+  padding: .75rem 1.5rem;
+  border-radius: .5rem;
+  background: linear-gradient(0deg, #8772c1, #513c8b, #8772c1);
+  color: #fff;
+  transition: transform .15s;
+}
+button:disabled { opacity: .5; cursor: not-allowed; }
+button:not(:disabled):hover { transform: scale(1.05); }
+
+.card {
+  width: 100%;
+  max-width: 600px;
+  background: #ffffff0f;
+  backdrop-filter: blur(10px);
+  border-radius: 1rem;
+  padding: 2rem;
+  text-align: center;
+  box-shadow: 0 10px 25px #0000004d;
+}
