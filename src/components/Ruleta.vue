@@ -7,7 +7,7 @@
     <!-- wrapper lets us overlay the centre-logo -->
     <div class="wheel-wrapper">
       <canvas ref="canvas" width="320" height="320"></canvas>
-      <img class="centre-logo" src="/img/centre-logo.png" alt="centre" />
+      <img class="centre-logo" src="/img/rueda-01.png" alt="centre" />
     </div>
 
     <div class="pie">
@@ -27,10 +27,10 @@ const canvas   = ref(null)
 const isSpinning = ref(false)
 
 /* ---------------  CONFIG  ---------------- */
-const colores    = ['#ff595e','#ffca3a','#8ac926','#1982c4','#6a4c93','#ff924c']
+const colores    = ['#ff595e','#ffca3a','#8ac926','#1982c4','#15b1c9ff','#ff924c']
 const logos      = [        // 1 per slice (6 slices)
-  '/img/logo1.png','/img/logo2.png','/img/logo3.png',
-  '/img/logo4.png','/img/logo5.png','/img/logo6.png'
+  '/img/logo1.png','/img/logo6.png','/img/logo7.png',
+  '/img/logo4.png','/img/logo5.png','/img/logo3.png'
 ]
 const sliceCount = 6
 /* ----------------------------------------- */
