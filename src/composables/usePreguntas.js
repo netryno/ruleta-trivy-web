@@ -7,7 +7,9 @@ const lista = ref([])
 const error = ref('')
 export async function cargarPreguntas() {
 try {
-const res = await fetch('/preguntas.json')
+//const res = await fetch('/preguntas.json')
+const res = await fetch('/juegos/ruleta/img/preguntas.json')
+
 if (!res.ok) throw new Error('No se pudo cargar el JSON')
 const data = await res.json()
 if (!Array.isArray(data) || !data.length) throw new Error('JSON vacío')

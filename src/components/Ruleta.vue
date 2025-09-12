@@ -28,9 +28,13 @@ const isSpinning = ref(false)
 
 /* ---------------  CONFIG  ---------------- */
 const colores    = ['#ff595e','#ffca3a','#8ac926','#1982c4','#15b1c9ff','#ff924c']
-const logos      = [        // 1 per slice (6 slices)
-  '/img/logo1.png','/img/logo6.png','/img/logo7.png',
-  '/img/logo4.png','/img/logo5.png','/img/logo3.png'
+const logos = [
+  '/juegos/ruleta/img/logo1.png',
+  '/juegos/ruleta/img/logo6.png',
+  '/juegos/ruleta/img/logo7.png',
+  '/juegos/ruleta/img/logo4.png',
+  '/juegos/ruleta/img/logo5.png',
+  '/juegos/ruleta/img/logo3.png'
 ]
 const sliceCount = 6
 /* ----------------------------------------- */

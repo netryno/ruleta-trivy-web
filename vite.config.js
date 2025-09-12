@@ -4,7 +4,7 @@ import vue from '@vitejs/plugin-vue'
 
 export default defineConfig({
   plugins: [vue()],
-  //base: '/juegos/ruleta/',      // <-- ruta final en producción
+  base: '/juegos/ruleta/',      // <-- ruta final en producción
   server: { 
     port: 3000, 
     open: true,
