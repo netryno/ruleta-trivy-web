@@ -1,6 +1,6 @@
-# 📄 ministerio publc
+# 📄 Juego , personalizable preguntas, y sus respectivas respuests
 
-# camara en ip
+#
 chrome://flags/#unsafely-treat-insecure-origin-as-secure
 
 
