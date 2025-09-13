@@ -77,9 +77,11 @@ function seleccionar(respuesta) {
   cursor: pointer;
   transition: background 0.2s;
 }
+/*
 .opciones li:hover {
   background: #ffffff33;
 }
+*/
 .opciones li.correcta {
   /*background: #2ecc71;*/
   background: linear-gradient(0deg, #8cf9ba, #2ecc71, #8cf9ba);
