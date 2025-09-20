@@ -2,7 +2,7 @@
   <div class="card">
     <img class="logo-fiscalia" src="/img/fiscalia.png" alt="Fiscalía General de la Nación" />
 
-    <h1 class="titulo">🎲​ Gira y Gana con la Fiscalía </h1>
+    <h1 class="titulo">🎲🏆​ Gira y Gana  con la Fiscalía </h1>
 
     <!-- wrapper lets us overlay the centre-logo -->
     <div class="wheel-wrapper">
@@ -181,8 +181,8 @@ canvas {
 .titulo { margin-bottom: 1rem; }
 button  { margin-top: 1.5rem; }
 .logo-fiscalia{
-    width: 150px;
-    margin-bottom: 1rem;
+    width: 250px;
+    margin-bottom: 3rem;
 }
 .pie{
     margin-top: 1rem;

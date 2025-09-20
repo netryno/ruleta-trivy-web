@@ -105,7 +105,7 @@ function seleccionar(respuesta) {
   color: #2ecc71;
 }
 .logo-fiscalia{
-    width: 150px;
-    margin-bottom: 1rem;
+    width: 250px;
+    margin-bottom: 3rem;
 }
 </style>
