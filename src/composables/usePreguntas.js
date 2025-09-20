@@ -20,9 +20,21 @@ error.value = e.message
 lista.value = []
 }
 }
-export function obtenerPreguntaRandom() {
-if (!lista.value.length) return null
-const idx = Math.floor(Math.random() * lista.value.length)
-return lista.value[idx]
+export function obtenerPreguntaRandom2() {
+    if (!lista.value.length) return null
+    const idx = Math.floor(Math.random() * lista.value.length)
+    return lista.value[idx]
 }
+export function obtenerPreguntaRandom() {
+    if (!lista.value.length) return null;
+    
+    // Usar timestamp para hacer más aleatoria la selección
+    const timestamp = Date.now();
+    const seed = (timestamp % lista.value.length);
+    const randomOffset = Math.floor(Math.random() * lista.value.length);
+    
+    const idx = (seed + randomOffset) % lista.value.length;
+    return lista.value[idx];
+  }
+
 export { error }
