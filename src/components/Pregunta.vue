@@ -3,6 +3,7 @@
     <img class="logo-fiscalia" src="/img/fiscalia.png" alt="Fiscalía General de la Nación" />
     <h2>{{ pregunta.titulo }}</h2>
 
+    <!--
     <ul class="opciones">
       <li
         v-for="(r, i) in pregunta.respuestas"
@@ -17,6 +18,21 @@
         {{ r.texto }}
       </li>
     </ul>
+    -->
+    <ul class="opciones">
+      <li
+        v-for="(r, i) in respuestasAleatorias"
+        :key="i"
+        :class="{
+          correcta: mostrar && seleccionada?.correcta && r.correcta,
+          incorrecta: mostrar && seleccionada === r && !r.correcta
+        }"
+        @click="seleccionar(r)"
+      >
+        {{ r.texto }}
+      </li>
+    </ul>
+
 
     <div v-if="mostrar" class="feedback">
       <p :class="{'res-ok': esCorrecta, 'res-ko': !esCorrecta}">
@@ -30,7 +46,9 @@
 </template>
 
 <script setup>
-import { ref } from 'vue'
+//import { ref } from 'vue'
+import { ref, computed, onMounted } from 'vue'
+
 import Confetti from './Confetti.vue'
 
 const props = defineProps({
@@ -44,6 +62,38 @@ const seleccionada = ref(null)
 const mostrar = ref(false)
 const esCorrecta = ref(false)
 
+const semillaAleatoria = ref(0)
+
+
+// Generar una semilla basada en la fecha actual
+function generarSemilla() {
+  const ahora = new Date();
+  // Usamos minutos y segundos para cambiar la semilla frecuentemente
+  return ahora.getMinutes() * 100 + ahora.getSeconds();
+}
+// Función para mezclar array con semilla
+function mezclarConSemilla(array, semilla) {
+  const mezclado = [...array];
+  const random = () => {
+    const x = Math.sin(semilla++) * 10000;
+    return x - Math.floor(x);
+  };
+  
+  for (let i = mezclado.length - 1; i > 0; i--) {
+    const j = Math.floor(random() * (i + 1));
+    [mezclado[i], mezclado[j]] = [mezclado[j], mezclado[i]];
+  }
+  
+  return mezclado;
+}
+
+// Computed property para respuestas aleatorias
+const respuestasAleatorias = computed(() => {
+  if (!props.pregunta || !props.pregunta.respuestas) return [];
+  return mezclarConSemilla(props.pregunta.respuestas, semillaAleatoria.value);
+});
+
+
 function seleccionar(respuesta) {
   if (mostrar.value) return
   seleccionada.value = respuesta
@@ -51,6 +101,20 @@ function seleccionar(respuesta) {
   mostrar.value = true
   if (esCorrecta.value) confettiRef.value.lanzar()
 }
+
+function reiniciar() {
+  // Generar nueva semilla al reiniciar
+  semillaAleatoria.value = generarSemilla();
+  seleccionada.value = null;
+  mostrar.value = false;
+  esCorrecta.value = false;
+  emit('reiniciar');
+}
+
+// Inicializar la semilla cuando el componente se monta
+onMounted(() => {
+  semillaAleatoria.value = generarSemilla();
+});
 </script>
 
 <style scoped>
@@ -73,6 +137,7 @@ function seleccionar(respuesta) {
   /*background: #ffffff1a;*/
   background: linear-gradient(0deg, #7bc9c3, #3a8e88, #7bc9c3);
   padding: 1rem;
+  margin-bottom: 0.5rem;
   border-radius: 0.5rem;
   cursor: pointer;
   transition: background 0.2s;
